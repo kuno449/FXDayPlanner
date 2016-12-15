@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="580.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.InterfaceController">
+   <children>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="328.0" prefHeight="27.0" prefWidth="60.0" text="Time" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showDate" alignment="CENTER" layoutX="34.0" layoutY="55.0" prefHeight="53.0" prefWidth="250.0" styleClass="timeDisplay" text="date">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <GridPane layoutX="18.0" layoutY="351.0" prefHeight="459.0" prefWidth="544.0" stylesheets="@application.css">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="364.0" minWidth="10.0" prefWidth="32.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="461.0" minWidth="0.0" prefWidth="7.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="626.0" minWidth="0.0" prefWidth="519.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="8" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="9" wrapText="true" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="10" wrapText="true" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="11" wrapText="true" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="12" wrapText="true" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="13" wrapText="true" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="14" wrapText="true" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="15" wrapText="true" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="16" wrapText="true" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="17" wrapText="true" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="18" wrapText="true" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="19" wrapText="true" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="20" wrapText="true" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour1" text="21" wrapText="true" GridPane.rowIndex="13">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="395.0" styleClass="hour2" text="22" wrapText="true" GridPane.rowIndex="14">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile8" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile9" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile10" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile11" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile12" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile13" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile14" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile15" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile16" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile17" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile18" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="11">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile19" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="12">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile20" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label1" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="13">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile21" prefHeight="25.0" prefWidth="511.0" />
+               </graphic></Label>
+            <Label prefHeight="30.0" prefWidth="650.0" styleClass="label2" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="14">
+               <opaqueInsets>
+                  <Insets left="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <TilePane fx:id="tile22" prefHeight="25.0" prefWidth="511.0" />
+               </graphic>
+            </Label>
+         </children>
+      </GridPane>
+      <Button layoutX="90.0" layoutY="274.0" mnemonicParsing="false" onAction="#newTask" prefHeight="36.0" prefWidth="138.0" text="make new task">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="580.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Info">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="About" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="214.0" layoutY="113.0" mnemonicParsing="false" onAction="#nextDay" prefHeight="25.0" prefWidth="70.0" text="next">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button layoutX="34.0" layoutY="113.0" mnemonicParsing="false" onAction="#previousDay" prefHeight="25.0" prefWidth="70.0" stylesheets="@application.css" text="previous" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Label fx:id="displayTaskname" layoutX="309.0" layoutY="54.0" prefHeight="30.0" prefWidth="250.0" styleClass="display" AnchorPane.rightAnchor="21.0">
+         <opaqueInsets>
+            <Insets left="5.0" />
+         </opaqueInsets></Label>
+      <Label fx:id="displayTime" layoutX="309.0" layoutY="84.0" prefHeight="30.0" prefWidth="250.0" styleClass="display">
+         <opaqueInsets>
+            <Insets left="5.0" />
+         </opaqueInsets></Label>
+      <Label fx:id="displayDetail" alignment="TOP_LEFT" layoutX="309.0" layoutY="113.0" prefHeight="197.0" prefWidth="250.0" styleClass="display" wrapText="true">
+         <opaqueInsets>
+            <Insets left="5.0" />
+         </opaqueInsets></Label>
+      <Button layoutX="124.0" layoutY="113.0" mnemonicParsing="false" onAction="#today" prefHeight="25.0" prefWidth="70.0" stylesheets="@application.css" text="today">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" layoutY="312.0" mnemonicParsing="false" onAction="#deleteTask" prefHeight="25.0" prefWidth="60.0" stylesheets="@application.css" text="delete" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="434.0" layoutY="312.0" mnemonicParsing="false" onAction="#editTask" prefHeight="25.0" prefWidth="60.0" stylesheets="@application.css" text="edit" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Pane layoutX="34.0" layoutY="154.0" prefHeight="45.0" prefWidth="250.0" styleClass="button">
+         <children>
+            <DatePicker fx:id="chooseDate" layoutX="85.0" layoutY="9.0" onAction="#chooseDate" prefHeight="25.0" prefWidth="150.0" />
+            <Label layoutX="17.0" layoutY="14.0" text="choose date" textFill="WHITE">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="250.0" layoutY="327.0" prefHeight="27.0" prefWidth="80.0" text="Task List" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="214.0" layoutY="214.0" mnemonicParsing="false" onAction="#refresh" prefHeight="25.0" prefWidth="70.0" text="Refresh" />
+         </children>
+</AnchorPane>

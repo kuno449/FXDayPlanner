@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.EditTaskController">
+   <children>
+      <Button layoutX="324.0" layoutY="546.0" mnemonicParsing="false" onAction="#setEditTask" prefWidth="60.0" text="Enter" />
+      <Label layoutX="190.0" layoutY="87.0" text="Time" />
+      <Label layoutX="49.0" layoutY="85.0" text="Date" />
+      <TextField fx:id="taskname" layoutX="48.0" layoutY="159.0" prefHeight="30.0" prefWidth="317.0" promptText="not defined yet" />
+      <TextField fx:id="detail" layoutX="47.0" layoutY="420.0" prefHeight="112.0" prefWidth="355.0" promptText="not defined yet" />
+      <Label layoutX="49.0" layoutY="142.0" text="Title" />
+      <Label layoutX="46.0" layoutY="403.0" text="Detail" />
+      <DatePicker fx:id="date" layoutX="48.0" layoutY="105.0" prefHeight="25.0" prefWidth="120.0" />
+      <ComboBox fx:id="hour" layoutX="187.0" layoutY="104.0" prefWidth="100.0" promptText="not defined yet" />
+      <ComboBox fx:id="minute" layoutX="296.0" layoutY="104.0" prefWidth="100.0" promptText="not defined yet" />
+      <Label layoutX="49.0" layoutY="49.0" text="Type :" />
+      <Label fx:id="showType" layoutX="85.0" layoutY="50.0" prefHeight="17.0" prefWidth="100.0" />
+      <Pane layoutX="47.0" layoutY="198.0" prefHeight="220.0" prefWidth="355.0">
+         <children>
+            <Label fx:id="memo2" layoutY="55.0" text="Memo2" />
+            <Label fx:id="memo4" layoutY="154.0" text="Memo4" />
+            <Label fx:id="memo3" layoutY="102.0" text="Memo3" />
+            <Label fx:id="memo1" layoutY="5.0" text="Memo1" />
+            <TextField fx:id="input3" layoutY="121.0" prefHeight="25.0" prefWidth="250.0" />
+            <TextField fx:id="input2" layoutY="71.0" prefHeight="25.0" prefWidth="250.0" />
+            <TextField fx:id="input1" layoutY="22.0" prefHeight="25.0" prefWidth="250.0" />
+            <TextField fx:id="input4" layoutY="171.0" prefHeight="25.0" prefWidth="250.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

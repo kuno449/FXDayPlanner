@@ -1,0 +1,16 @@
+1	Appointment	Abendessen beim Restraunt	no input	2016-02-10	21	00	testStr. 42	Herr.Steiner	no input	no input
+2	Shopping	Einkauf für PC	no input	2016-02-10	18	00	MediaMarkt	USB Kabel	DVD disk	no input
+3	Leisure	Konzert	no input	2016-02-07	19	40	Hotel	Bahn	Ticket	no input
+4	Appointment	Burger essen	mit Pommes und Ketchup	2016-02-08	16	00	Rosenburger	Susan	Burger verdrücken 	Geld, Hirn
+5	Leisure	Hamburg-Reise	no input	2016-02-10	07	00	Freunde	MeinFernBus	Rucksack	Zahnbürste
+6	Shopping	Einkaufen	no input	2016-02-09	15	00	Kaisers	Chips	mehr Chips	Cola
+7	Leisure	zurück nach Berlin	no input	2016-02-25	15	35	Bus	MeinFernbus	no input	no input
+8	Job	Workshop	no input	2016-02-18	12	00	Taxi vorbestellen	Präsentation	Adora AG	no input
+9	Job	Babysitten	no input	2016-02-01	14	00	Baby sitten	Fläschchen	Baby	no input
+10	Job	Schulung	neue Software vorstellen 	2016-02-28	08	45	Schlung neuer Mitarbeiter 	Unterlagen	neue Mitarbeiter 	no input
+11	Media	Hauptabendprogramm	no input	2016-03-05	21	30	TV	RTL 	no input	no input
+13	Appointment	Termin bei Arbeitsamt	no input	2016-03-01	08	45	Arbeitsamt Mite	Frau.Muller	Anmeldung	Pass
+14	Appointment	Umzughelfer	Kartons schleppen	2016-02-11	09	15	bei Daniel	Daniel und Nicki	beim Umzug helfen	Kraft 
+15	Job	Meeting	Vorab-Besprechung	2016-02-05	09	30	Besprechung mit Chef	PowerPoint Präsentation 	Adora  AG	no input
+12	Media	The Walking Dead	oder Stream	2016-02-09	22	00	Tv	RTL II	no input	no input
+16	Shopping	Einkauf für Bücher	no input	2016-03-15	17	00	Dussmann	Fachbuch von Java	Reisebuch Hamburg	no input

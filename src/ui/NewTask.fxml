@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="440.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.NewTaskController">
+   <children>
+      <Button layoutX="332.0" layoutY="518.0" mnemonicParsing="false" onAction="#setNewTask" text="Save" />
+      <DatePicker fx:id="inputDate" layoutX="36.0" layoutY="94.0" prefWidth="120.0" />
+      <TextArea fx:id="inputDetail" layoutX="35.0" layoutY="410.0" prefHeight="92.0" prefWidth="367.0" />
+      <TextField fx:id="inputTaskname" layoutX="35.0" layoutY="150.0" prefHeight="25.0" prefWidth="317.0" />
+      <Label layoutX="176.0" layoutY="75.0" text="Time" />
+      <ComboBox fx:id="inputHour" layoutX="176.0" layoutY="94.0" prefHeight="25.0" prefWidth="100.0" />
+      <ComboBox fx:id="inputMinute" layoutX="290.0" layoutY="94.0" prefWidth="100.0" />
+      <Label layoutX="36.0" layoutY="75.0" text="Date" />
+      <Label layoutX="35.0" layoutY="133.0" text="Titel" />
+      <Label layoutX="41.0" layoutY="393.0" text="Detail" />
+      <Label layoutX="282.0" layoutY="98.0" text=":" />
+      <ComboBox fx:id="inputType" layoutX="35.0" layoutY="41.0" onAction="#typeChosen" prefWidth="150.0" />
+      <Label layoutX="35.0" layoutY="18.0" text="Type" />
+      <Label layoutX="220.0" layoutY="384.0" />
+      <Pane layoutX="37.0" layoutY="188.0" prefHeight="193.0" prefWidth="367.0">
+         <children>
+            <TextField fx:id="input1" layoutY="21.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField fx:id="input3" layoutY="110.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField fx:id="input2" layoutY="65.0" prefHeight="25.0" prefWidth="200.0" />
+            <TextField fx:id="input4" layoutY="155.0" prefHeight="25.0" prefWidth="200.0" />
+            <Label fx:id="memo1" layoutY="3.0" prefHeight="17.0" prefWidth="61.0" />
+            <Label fx:id="memo3" layoutY="93.0" prefHeight="17.0" prefWidth="61.0" />
+            <Label fx:id="memo4" layoutY="138.0" prefHeight="17.0" prefWidth="55.0" />
+            <Label fx:id="memo2" layoutX="1.0" layoutY="47.0" prefHeight="17.0" prefWidth="61.0" />
+            <DatePicker fx:id="datePicker1" layoutY="155.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

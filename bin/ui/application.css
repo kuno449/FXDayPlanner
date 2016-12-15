@@ -1,0 +1,79 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.background{
+	  -fx-background-color: #599399;
+}
+
+.label1 {
+  -fx-font-family: Arial;
+  -fx-color: #242324;
+  -fx-font-size: 12px;
+  -fx-background-color: #8BBBBF;
+  -fx-background-radius: 15px;  
+}
+
+.label2 {
+  -fx-font-family: Arial;
+  -fx-color: #728DA5;
+  -fx-font-size: 12px;
+  -fx-background-color: #C2DFE1;
+  -fx-background-radius: 15px;
+}
+
+.hour1 {
+  -fx-font-family: Arial;
+  -fx-text-fill: #C2DFE1;
+  -fx-font-size: 14px;
+  -fx-background-color: #1F646A;
+  -fx-background-radius: 12px;
+}
+
+.hour2 {
+  -fx-font-family: Arial;
+  -fx-text-fill: #C2DFE1;
+  -fx-font-size: 14px;
+  -fx-background-color: #387B81;
+  -fx-background-radius: 12px;
+}
+
+.hyperlink {
+    -fx-text-fill: black;
+    -fx-underline: false;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #045ecc;
+    -fx-underline: false;
+}
+
+.timeDisplay {
+  -fx-font-family: Arial;
+  -fx-text-fill: white;
+  -fx-font-size: 18px;
+  -fx-background-color: #387B81;
+  -fx-background-radius: 4px;  
+  -fx-border-color: #1F646A;
+  -fx-border-radius: 4px; 
+  -fx-border-width: 2px; 
+}
+
+.display {
+  -fx-font-family: Arial;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+  -fx-background-color: #387B81;
+  -fx-background-radius: 4px;  
+  -fx-border-color: #1F646A;
+  -fx-border-radius: 4px; 
+  -fx-border-width: 2px; 
+}
+
+.button {
+  -fx-font-family: Arial;
+  -fx-text-fill: white;
+  -fx-font-size: 11px;
+  -fx-background-color: #23719e;
+  -fx-background-radius: 35px;
+  -fx-border-color: #bfcdd6; 
+  -fx-border-width: 0px;   
+  -fx-border-radius: 35px; 
+}
